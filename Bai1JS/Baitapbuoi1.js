@@ -15,7 +15,7 @@
 const TIME = 100000;
 var ngaylam= 26;
 var luong = TIME*ngaylam;
-console.log("luong: " + luong); 
+console.log("luong: " + luong..toLocaleString()); 
 
 /* Bài 2 */
 
@@ -62,7 +62,7 @@ console.log("luong: " + luong);
  var money = 23500;
  var USD = 2;
  var VND = USD*money;
- console.log("Quy đổi tiền VND: " + VND + "VNĐ");
+ console.log("Quy đổi tiền VND: " + VND.toLocaleString() + "VNĐ");
 
  /* Bài 4 */ 
  //Tính diện tích, chu vi hình chữ nhật 
